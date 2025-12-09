@@ -1,140 +1,169 @@
-<img src="./.github/screenshots/header.png#gh-light-mode-only" width="100%" alt="Header light mode"/>
-<img src="./.github/screenshots/header-dark.png#gh-dark-mode-only" width="100%" alt="Header dark mode"/>
+# **VivoMeetings Chatwoot Fork**
 
-___
+### *Enterprise-Grade Customer Support Platform with AI Automation & Human Handoff*
 
-# Chatwoot
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+![Status](https://img.shields.io/badge/Status-Active-blue)
+![Platform](https://img.shields.io/badge/Platform-Self--Hosted-important)
+![AI Powered](https://img.shields.io/badge/AI-Powered-brightgreen)
 
-The modern customer support platform, an open-source alternative to Intercom, Zendesk, Salesforce Service Cloud etc.
+## 📘 **Overview**
 
-<p>
-  <a href="https://codeclimate.com/github/chatwoot/chatwoot/maintainability"><img src="https://api.codeclimate.com/v1/badges/e6e3f66332c91e5a4c0c/maintainability" alt="Maintainability"></a>
-  <img src="https://img.shields.io/circleci/build/github/chatwoot/chatwoot" alt="CircleCI Badge">
-    <a href="https://hub.docker.com/r/chatwoot/chatwoot/"><img src="https://img.shields.io/docker/pulls/chatwoot/chatwoot" alt="Docker Pull Badge"></a>
-  <a href="https://hub.docker.com/r/chatwoot/chatwoot/"><img src="https://img.shields.io/docker/cloud/build/chatwoot/chatwoot" alt="Docker Build Badge"></a>
-  <img src="https://img.shields.io/github/commit-activity/m/chatwoot/chatwoot" alt="Commits-per-month">
-  <a title="Crowdin" target="_self" href="https://chatwoot.crowdin.com/chatwoot"><img src="https://badges.crowdin.net/e/37ced7eba411064bd792feb3b7a28b16/localized.svg"></a>
-  <a href="https://discord.gg/cJXdrwS"><img src="https://img.shields.io/discord/647412545203994635" alt="Discord"></a>
-  <a href="https://status.chatwoot.com"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fchatwoot%2Fstatus%2Fmaster%2Fapi%2Fchatwoot%2Fuptime.json" alt="uptime"></a>
-  <a href="https://status.chatwoot.com"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fchatwoot%2Fstatus%2Fmaster%2Fapi%2Fchatwoot%2Fresponse-time.json" alt="response time"></a>
-  <a href="https://artifacthub.io/packages/helm/chatwoot/chatwoot"><img src="https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/artifact-hub" alt="Artifact HUB"></a>
-</p>
+The VivoMeetings Chatwoot Fork is an **enterprise-customized**, **open-source** version of Chatwoot engineered to support large-scale customer communication workflows within the VivoMeetings ecosystem.
 
+This distribution enhances Chatwoot with:
 
-<p>
-  <a href="https://heroku.com/deploy?template=https://github.com/chatwoot/chatwoot/tree/master" alt="Deploy to Heroku">
-     <img width="150" alt="Deploy" src="https://www.herokucdn.com/deploy/button.svg"/>
-  </a>
-  <a href="https://marketplace.digitalocean.com/apps/chatwoot?refcode=f2238426a2a8" alt="Deploy to DigitalOcean">
-     <img width="200" alt="Deploy to DO" src="https://www.deploytodo.com/do-btn-blue.svg"/>
-  </a>
-</p>
+* **AI-assisted automated responses** powered by OpenAI
+* **Real-time human agent takeover** for escalations
+* **Multi-channel communication** for business environments
+* **Branding and workflow enhancements** tailored for SaaS companies
+* **Full self-hosting** for organizations requiring privacy, compliance, and data sovereignty
 
-<img src="./.github/screenshots/dashboard.png#gh-light-mode-only" width="100%" alt="Chat dashboard dark mode"/>
-<img src="./.github/screenshots/dashboard-dark.png#gh-dark-mode-only" width="100%" alt="Chat dashboard"/>
+This fork maintains compatibility with upstream Chatwoot while offering additional enterprise features.
+
+## 🚀 **Key Enterprise Features**
+
+### 🤖 **AI Automation Layer**
+
+* OpenAI-powered response engine
+* Low-confidence detection and escalation
+* Knowledge-base inference for instant answers
+* Configurable prompt architecture for domain-specific support
+
+### 🧑‍💼 **Human Agent Escalation**
+
+* Seamless transition from bot to human
+* SLA-driven routing and assignment
+* Private internal notes for agent collaboration
+* Supervisor visibility for escalated conversations
+
+### 📡 **Omnichannel Support**
+
+* Web chat widget
+* Email channels
+* API-driven integrations
+* Future expansion for WhatsApp, Telegram, and SMS
+
+### 🔐 **Security & Compliance**
+
+* Fully self-hosted
+* MIT-licensed open-source
+* GDPR-aligned workflows
+* Suitable for enterprise internal deployments
+
+### 🏢 **SaaS-Ready Enhancements**
+
+* Custom theming and branding
+* Robust API middleware for scalable automation
 
 ---
 
-Chatwoot is the modern, open-source, and self-hosted customer support platform designed to help businesses deliver exceptional customer support experience. Built for scale and flexibility, Chatwoot gives you full control over your customer data while providing powerful tools to manage conversations across channels.
+## 🧱 **Architecture Overview**
 
-### ✨ Captain – AI Agent for Support
-
-Supercharge your support with Captain, Chatwoot’s AI agent. Captain helps automate responses, handle common queries, and reduce agent workload—ensuring customers get instant, accurate answers. With Captain, your team can focus on complex conversations while routine questions are resolved automatically. Read more about Captain [here](https://chwt.app/captain-docs).
-
-### 💬 Omnichannel Support Desk
-
-Chatwoot centralizes all customer conversations into one powerful inbox, no matter where your customers reach out from. It supports live chat on your website, email, Facebook, Instagram, Twitter, WhatsApp, Telegram, Line, SMS etc.
-
-### 📚 Help center portal
-
-Publish help articles, FAQs, and guides through the built-in Help Center Portal. Enable customers to find answers on their own, reduce repetitive queries, and keep your support team focused on more complex issues.
-
-### 🗂️ Other features
-
-#### Collaboration & Productivity
-
-- Private Notes and @mentions for internal team discussions.
-- Labels to organize and categorize conversations.
-- Keyboard Shortcuts and a Command Bar for quick navigation.
-- Canned Responses to reply faster to frequently asked questions.
-- Auto-Assignment to route conversations based on agent availability.
-- Multi-lingual Support to serve customers in multiple languages.
-- Custom Views and Filters for better inbox organization.
-- Business Hours and Auto-Responders to manage response expectations.
-- Teams and Automation tools for scaling support workflows.
-- Agent Capacity Management to balance workload across the team.
-
-#### Customer Data & Segmentation
-- Contact Management with profiles and interaction history.
-- Contact Segments and Notes for targeted communication.
-- Campaigns to proactively engage customers.
-- Custom Attributes for storing additional customer data.
-- Pre-Chat Forms to collect user information before starting conversations.
-
-#### Integrations
-- Slack Integration to manage conversations directly from Slack.
-- Dialogflow Integration for chatbot automation.
-- Dashboard Apps to embed internal tools within Chatwoot.
-- Shopify Integration to view and manage customer orders right within Chatwoot.
-- Use Google Translate to translate messages from your customers in realtime.
-- Create and manage Linear tickets within Chatwoot.
-
-#### Reports & Insights
-- Live View of ongoing conversations for real-time monitoring.
-- Conversation, Agent, Inbox, Label, and Team Reports for operational visibility.
-- CSAT Reports to measure customer satisfaction.
-- Downloadable Reports for offline analysis and reporting.
+                  ┌───────────────────────────┐
+                  │   VivoMeetings Platform    │
+                  └──────────────▲────────────┘
+                                 │
+                                 │ API / Webhooks
+                                 │
+                    ┌────────────┴────────────┐
+                    │   Chatwoot (Core Fork)   │
+                    │  Routing, UI, Inboxes    │
+                    └───────▲─────────┬────────┘
+                            │         │
+       Human Interaction    │         │    AI Automation
+                            │         │
+                 ┌──────────┘         └───────────┐
+                 │                                 │
+  ┌──────────────┴──────────────┐   ┌──────────────┴───────────────┐
+  │    Agent Dashboard (UI)      │   │      OpenAI Bot Service       │
+  │ Real-time responses & notes  │   │ AI Reply, Confidence Scoring  │
+  └──────────────────────────────┘   └───────────────────────────────┘
 
 
-## Documentation
+## ⚙️ **Installation & Deployment**
 
-Detailed documentation is available at [chatwoot.com/help-center](https://www.chatwoot.com/help-center).
+This fork follows the official Chatwoot self-hosting documentation:
 
-## Translation process
+### **1. Clone the repository**
 
-The translation process for Chatwoot web and mobile app is managed at [https://translate.chatwoot.com](https://translate.chatwoot.com) using Crowdin. Please read the [translation guide](https://www.chatwoot.com/docs/contributing/translating-chatwoot-to-your-language) for contributing to Chatwoot.
+```bash
+git clone https://github.com/vivomeetings/chatwoot.git
+cd chatwoot
+```
 
-## Branching model
+### **2. Follow upstream setup guide**
 
-We use the [git-flow](https://nvie.com/posts/a-successful-git-branching-model/) branching model. The base branch is `develop`.
-If you are looking for a stable version, please use the `master` or tags labelled as `v1.x.x`.
+Documentation:
+[https://www.chatwoot.com/docs/self-hosted](https://www.chatwoot.com/docs/self-hosted)
 
-## Deployment
+Supports:
 
-### Heroku one-click deploy
+* Docker / Docker Compose
+* Kubernetes
+* Bare-metal installs
 
-Deploying Chatwoot to Heroku is a breeze. It's as simple as clicking this button:
+### **3. Configure OpenAI Bot Service**
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/chatwoot/chatwoot/tree/master)
+Connect the bot using Webhook-based Agent Bot:
 
-Follow this [link](https://www.chatwoot.com/docs/environment-variables) to understand setting the correct environment variables for the app to work with all the features. There might be breakages if you do not set the relevant environment variables.
+* Bot middleware URL (your AI service)
+* Chatwoot API token
+* OpenAI API key
 
+## 🔧 **Environment Variables (AI Integration)**
 
-### DigitalOcean 1-Click Kubernetes deployment
+```env
+OPENAI_API_KEY=your_openai_key
+CHATWOOT_API_TOKEN=your_chatwoot_token
+CHATWOOT_BASE_URL=https://support.yourdomain.com
+BOT_WEBHOOK_URL=https://your-bot-service.com/chatwoot
+```
 
-Chatwoot now supports 1-Click deployment to DigitalOcean as a kubernetes app.
+## 📦 **Recommended Deployment Stack**
 
-<a href="https://marketplace.digitalocean.com/apps/chatwoot?refcode=f2238426a2a8" alt="Deploy to DigitalOcean">
-  <img width="200" alt="Deploy to DO" src="https://www.deploytodo.com/do-btn-blue.svg"/>
-</a>
-
-### Other deployment options
-
-For other supported options, checkout our [deployment page](https://chatwoot.com/deploy).
-
-## Security
-
-Looking to report a vulnerability? Please refer our [SECURITY.md](./SECURITY.md) file.
-
-## Community
-
-If you need help or just want to hang out, come, say hi on our [Discord](https://discord.gg/cJXdrwS) server.
-
-## Contributors
-
-Thanks goes to all these [wonderful people](https://www.chatwoot.com/docs/contributors):
-
-<a href="https://github.com/chatwoot/chatwoot/graphs/contributors"><img src="https://opencollective.com/chatwoot/contributors.svg?width=890&button=false" /></a>
+| Component            | Purpose                  |
+| -------------------- | ------------------------ |
+| **Chatwoot**         | Core messaging engine    |
+| **PostgreSQL**       | Persistent storage       |
+| **Redis**            | Job processing + caching |
+| **AI Bot Service**   | OpenAI integration layer |
+| **NGINX / Ingress**  | Reverse proxy + SSL      |
+| **Docker + Compose** | Self-hosting simplicity  |
 
 
-*Chatwoot* &copy; 2017-2025, Chatwoot Inc - Released under the MIT License.
+## 🛡️ **Enterprise Use Cases**
+
+* Customer support automation
+* SaaS onboarding assistants
+* Technical support triage
+* Internal IT helpdesk
+
+## 🤝 **Contributing**
+
+We welcome enterprise collaborators, integrators, and open-source contributors.
+
+Please submit:
+
+* Pull requests
+* Feature suggestions
+* Integration modules
+
+## 📄 **License**
+
+This project is released under the **MIT License**, allowing commercial and enterprise usage with attribution.
+
+See the full [LICENSE](LICENSE) file for details.
+
+
+## 🌍 **Contact & Links**
+
+* **Chatwoot Upstream:** [https://github.com/chatwoot/chatwoot](https://github.com/chatwoot/chatwoot)
+* **Issues / Requests:** GitHub Issues tab
+
+
+## ⭐ **Maintained by VivoMeetings Engineering**
+
+Building secure, scalable communication tools for modern SaaS platforms.
+
+
